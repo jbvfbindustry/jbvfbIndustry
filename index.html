@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JBV Group | Just Blessed Vibes | jbvfbindustry.in</title>
+  <meta name="description" content="JBV Group - Honouring God, Serving People, Shaping the Future. Delivering quality, innovation, and digital excellence across Food & Beverage, Digital Solutions, Creative Products, and Agri Solutions.">
+  <meta name="keywords" content="JBV Group, JBV Food and Beverage Industry, Dr. K. Vinukumar, jbvfbindustry.in, JBV Digital Solutions, JBV Academy, Megnanapuram, Thoothukudi">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/jbv_official_logo.jpg">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo-wrap">
+        <img src="assets/jbv_official_logo.jpg" alt="JBV Group Official Logo Crest" class="nav-logo-img">
+        <div class="brand-text-block">
+          <span class="brand-name gold-text">JBV GROUP</span>
+          <span class="brand-sub">Just Blessed Vibes</span>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">Vision & Mission</a></li>
+        <li><a href="#divisions" class="nav-link">Divisions</a></li>
+        <li><a href="#media" class="nav-link">Media Hub</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <a href="#contact" class="btn-contact-nav">
+            <i class="fa-solid fa-paper-plane"></i> Get in Touch
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fa-solid fa-crown"></i> Global Corporate Excellence
+        </div>
+        <h1 class="hero-title">
+          Building Quality & Innovation with <span class="gold-text">Faith & Compassion</span>
+        </h1>
+        
+        <div class="slogan-tagline">
+          Just Blessed Vibes
+        </div>
+
+        <div class="motto-banner">
+          <span class="motto-label">Our Guiding Motto</span>
+          <p class="motto-text">"Honouring God, Serving People, Shaping the Future."</p>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#divisions" class="btn-primary">
+            Explore Divisions <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn-secondary">
+            <i class="fa-solid fa-envelope"></i> Contact Us
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="logo-glow-card">
+          <img src="assets/jbv_official_logo.jpg" alt="JBV Group Official Crest Logo" class="official-logo-img">
+          <div class="domain-pill">
+            <i class="fa-solid fa-globe"></i> jbvfbindustry.in
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Vision & Mission Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Brand Pillars</span>
+        <h2 class="section-title">Our Vision & Mission</h2>
+        <p class="section-desc">Transforming lives through compassion, faith, service, and digital excellence.</p>
+      </div>
+
+      <div class="vision-mission-grid">
+        <!-- Vision Card -->
+        <div class="vm-card">
+          <div class="vm-icon-box">
+            <i class="fa-solid fa-eye"></i>
+          </div>
+          <h3 class="vm-title">JBV Group Vision</h3>
+          <p class="vm-text">
+            "To build JBV Group into a trusted global brand delivering quality, innovation, and digital excellence while transforming lives through compassion, faith, and service."
+          </p>
+        </div>
+
+        <!-- Mission Card -->
+        <div class="vm-card">
+          <div class="vm-icon-box">
+            <i class="fa-solid fa-bullseye"></i>
+          </div>
+          <h3 class="vm-title">JBV Group Mission</h3>
+          <p class="vm-text">
+            "To innovate with excellence, serve with compassion, conduct business with integrity, and create lasting value for customers, communities, and society while honouring God in all we do."
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Business Divisions Section -->
+  <section class="section" id="divisions">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Diversified Ecosystem</span>
+        <h2 class="section-title">Business Divisions</h2>
+        <p class="section-desc">Discover JBV Group's multi-industry verticals driving positive impact globally.</p>
+      </div>
+
+      <!-- Controls (Search & Filter) -->
+      <div class="divisions-controls">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="division-search" class="search-input" placeholder="Search division...">
+        </div>
+
+        <div class="filter-tags" id="filter-tags">
+          <button class="filter-btn active" data-filter="all">All Divisions</button>
+          <button class="filter-btn" data-filter="industry">Industry & Goods</button>
+          <button class="filter-btn" data-filter="digital">Digital & Media</button>
+          <button class="filter-btn" data-filter="services">Services & Agri</button>
+        </div>
+      </div>
+
+      <!-- Grid of 8 Divisions -->
+      <div class="divisions-grid" id="divisions-grid">
+
+        <!-- 1. Food & Beverage Industry -->
+        <div class="division-card" data-category="industry" data-id="1">
+          <div>
+            <span class="div-number">01 / FLAGSHIP</span>
+            <div class="div-icon">🥤</div>
+            <h3 class="div-name">JBV Food & Beverage Industry</h3>
+            <p class="div-desc">Manufacturing and distributing high-quality food, beverages, and organic refreshment solutions with strict quality control.</p>
+          </div>
+          <span class="div-learn-more">Explore Details <i class="fa-solid fa-chevron-right"></i></span>
+        </div>
+
+        <!-- 2. Creative Products -->
+        <div class="division-card" data-category="industry" data-id="2">
+          <div>
+            <span class="div-number">02</span>
+            <div class="div-icon">🎨</div>
+            <h3 class="div-name">JBV Creative Products</h3>
+            <p class="div-desc">Innovative artwork, custom lifestyle creations, and handcrafted designs bringing joy and aesthetic delight to homes and businesses.</p>
+          </div>
+          <span class="div-learn-more">Explore Details <i class="fa-solid fa-chevron-right"></i></span>
+        </div>
+
+        <!-- 3. Party Supplies -->
+        <div class="division-card" data-category="industry" data-id="3">
+          <div>
+            <span class="div-number">03</span>
+            <div class="div-icon">🎉</div>
+            <h3 class="div-name">JBV Party Supplies</h3>
+            <p class="div-desc">Premium celebration accessories, themed decorations, party essentials, and event decor for memorable life milestones.</p>
+          </div>
+          <span class="div-learn-more">Explore Details <i class="fa-solid fa-chevron-right"></i></span>
+        </div>
+
+        <!-- 4. Online Store -->
+        <div class="division-card" data-category="digital" data-id="4">
+          <div>
+            <span class="div-number">04</span>
+            <div class="div-icon">🛒</div>
+            <h3 class="div-name">JBV Online Store</h3>
+            <p class="div-desc">Direct-to-consumer e-commerce portal delivering authentic JBV products, accessories, and goods right to your doorstep.</p>
+          </div>
+          <span class="div-learn-more">Explore Details <i class="fa-solid fa-chevron-right"></i></span>
+        </div>
+
+        <!-- 5. Digital Media -->
+        <div class="division-card" data-category="digital" data-id="5">
+          <div>
+            <span class="div-number">05</span>
+            <div class="div-icon">🎬</div>
+            <h3 class="div-name">JBV Digital Media</h3>
+            <p class="div-desc">Creative animation studios, storytelling, digital publishing, video production, and engaging family-friendly content creators.</p>
+          </div>
+          <span class="div-learn-more">Explore Details <i class="fa-solid fa-chevron-right"></i></span>
+        </div>
+
+        <!-- 6. Digital Solutions -->
+        <div class="division-card" data-category="digital" data-id="6">
+          <div>
+            <span class="div-number">06</span>
+            <div class="div-icon">💻</div>
+            <h3 class="div-name">JBV Digital Solutions</h3>
+            <p class="div-desc">Enterprise software engineering, website development, cloud architecture, and strategic digital transformation services.</p>
+          </div>
+          <span class="div-learn-more">Explore Details <i class="fa-solid fa-chevron-right"></i></span>
+        </div>
+
+        <!-- 7. Academy -->
+        <div class="division-card" data-category="services" data-id="7">
+          <div>
+            <span class="div-number">07</span>
+            <div class="div-icon">🎓</div>
+            <h3 class="div-name">JBV Academy</h3>
+            <p class="div-desc">Empowering future leaders through skill development programs, digital literacy workshops, mentorship, and faith-centered education.</p>
+          </div>
+          <span class="div-learn-more">Explore Details <i class="fa-solid fa-chevron-right"></i></span>
+        </div>
+
+        <!-- 8. Agri & Farm Solutions -->
+        <div class="division-card" data-category="services" data-id="8">
+          <div>
+            <span class="div-number">08</span>
+            <div class="div-icon">🌾</div>
+            <h3 class="div-name">JBV Agri & Farm Solutions</h3>
+            <p class="div-desc">Sustainable agricultural practices, organic farming support, eco-friendly farming inputs, and agrarian community development.</p>
+          </div>
+          <span class="div-learn-more">Explore Details <i class="fa-solid fa-chevron-right"></i></span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Media Hub Section -->
+  <section class="section" id="media">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Connected Digital Presence</span>
+        <h2 class="section-title">Media & Publications</h2>
+        <p class="section-desc">Follow our latest creative stories, animations, and news feeds.</p>
+      </div>
+
+      <div class="media-grid">
+        <!-- YouTube Spotlight -->
+        <div class="media-card">
+          <div>
+            <div class="media-badge youtube-badge">
+              <i class="fa-brands fa-youtube"></i> Official Channel
+            </div>
+            <h3 class="media-title">JBV Cartoon YouTube Channel</h3>
+            <p class="media-desc">Enjoy inspiring animations, uplifting moral stories, and creative entertainment content produced by JBV Digital Media.</p>
+          </div>
+          <a href="https://www.youtube.com/@JBVCARTOON-m1w" target="_blank" rel="noopener noreferrer" class="btn-yt">
+            <i class="fa-brands fa-youtube"></i> Visit Channel (@JBVCARTOON-m1w)
+          </a>
+        </div>
+
+        <!-- Blogger Spotlight -->
+        <div class="media-card">
+          <div>
+            <div class="media-badge blogspot-badge">
+              <i class="fa-solid fa-blog"></i> Official Blog
+            </div>
+            <h3 class="media-title">JBV Cartoon Blogspot</h3>
+            <p class="media-desc">Read behind-the-scenes updates, articles, announcements, and creative stories published directly on our official Blogspot portal.</p>
+          </div>
+          <a href="https://jbvcartoon.blogspot.com/" target="_blank" rel="noopener noreferrer" class="btn-blog">
+            <i class="fa-solid fa-newspaper"></i> Read Blogspot Site
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Direct Communication</span>
+        <h2 class="section-title">Contact JBV Group</h2>
+        <p class="section-desc">We welcome inquiries, partnerships, and service requests.</p>
+      </div>
+
+      <div class="contact-wrap">
+        <!-- Info Card -->
+        <div class="contact-info-card">
+          <div class="proprietor-block">
+            <span class="proprietor-label">JBV Food and Beverage Industry</span>
+            <h4 class="proprietor-name">Proprietor: Dr. K. Vinukumar</h4>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon-box">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact-item-content">
+              <h5>Phone / Mobile</h5>
+              <a href="tel:+917598407598">+91 75984 07598</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon-box">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="contact-item-content">
+              <h5>Email Address</h5>
+              <a href="mailto:jbvfbindustry@gmail.com">jbvfbindustry@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon-box">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="contact-item-content">
+              <h5>Head Office Location</h5>
+              <p>2/145, Kersome Thevaraj Street,<br>
+              Megnanapuram, Thoothukudi District,<br>
+              Tamil Nadu – 628210</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Contact Form -->
+        <div class="contact-form-card">
+          <h3 style="margin-bottom: 1.5rem; color: var(--gold-light); font-family: 'Cinzel', serif;">Send an Inquiry</h3>
+          <form id="contact-form">
+            <div class="form-group">
+              <label class="form-label" for="user-name">Your Full Name</label>
+              <input type="text" id="user-name" class="form-control" placeholder="e.g. John Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="user-contact">Email / Phone Number</label>
+              <input type="text" id="user-contact" class="form-control" placeholder="e.g. john@example.com or +91 98765 43210" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="user-division">Interested Business Division</label>
+              <select id="user-division" class="form-control">
+                <option value="JBV Food & Beverage Industry">JBV Food & Beverage Industry</option>
+                <option value="JBV Creative Products">JBV Creative Products</option>
+                <option value="JBV Party Supplies">JBV Party Supplies</option>
+                <option value="JBV Online Store">JBV Online Store</option>
+                <option value="JBV Digital Media">JBV Digital Media</option>
+                <option value="JBV Digital Solutions">JBV Digital Solutions</option>
+                <option value="JBV Academy">JBV Academy</option>
+                <option value="JBV Agri & Farm Solutions">JBV Agri & Farm Solutions</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="user-message">Your Message / Requirement</label>
+              <textarea id="user-message" class="form-control" placeholder="How can JBV Group assist you?" required></textarea>
+            </div>
+
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <button type="submit" class="btn-primary" style="flex: 1;">
+                <i class="fa-solid fa-paper-plane"></i> Send Inquiry
+              </button>
+              <button type="button" id="whatsapp-btn" class="btn-secondary" style="background: rgba(37, 211, 102, 0.15); border-color: rgba(37, 211, 102, 0.4); color: #25D366;">
+                <i class="fa-brands fa-whatsapp"></i> Quick WhatsApp
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Popup for Division Details -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close" aria-label="Close Modal">&times;</button>
+      <div id="modal-content">
+        <!-- Content inserted dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo-wrap">
+            <img src="assets/jbv_official_logo.jpg" alt="JBV Logo" class="nav-logo-img">
+            <div class="brand-text-block">
+              <span class="brand-name gold-text">JBV GROUP</span>
+              <span class="brand-sub">Just Blessed Vibes</span>
+            </div>
+          </div>
+          <p>"Honouring God, Serving People, Shaping the Future."</p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">Vision & Mission</a></li>
+            <li><a href="#divisions">Business Divisions</a></li>
+            <li><a href="#media">Media & YouTube</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Top Divisions</h4>
+          <ul class="footer-links">
+            <li><a href="#divisions">Food & Beverage</a></li>
+            <li><a href="#divisions">Digital Solutions</a></li>
+            <li><a href="#divisions">Creative Products</a></li>
+            <li><a href="#divisions">JBV Academy</a></li>
+            <li><a href="#divisions">Agri & Farm Solutions</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Official Contact</h4>
+          <ul class="footer-links">
+            <li><i class="fa-solid fa-globe" style="color: var(--gold-light); margin-right: 0.4rem;"></i> jbvfbindustry.in</li>
+            <li><i class="fa-solid fa-phone" style="color: var(--gold-light); margin-right: 0.4rem;"></i> +91 75984 07598</li>
+            <li><i class="fa-solid fa-envelope" style="color: var(--gold-light); margin-right: 0.4rem;"></i> jbvfbindustry@gmail.com</li>
+            <li><i class="fa-solid fa-user" style="color: var(--gold-light); margin-right: 0.4rem;"></i> Dr. K. Vinukumar</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 JBV Group. All Rights Reserved. Domain: <strong>jbvfbindustry.in</strong></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
